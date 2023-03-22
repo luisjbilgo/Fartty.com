@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    min-height: 100vh ;
+    background-color: white;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    background-color: white;
+    margin-top: 44px;
+}
+
+.Titulo{
+  padding-left: 300px;
+  padding-right: 196px;
+}
+
+.parrafo{
+  margin-top: 93px;
+  display: flex;
+  justify-content: center;
+}
+
+.coming{
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  font-style: normal;
+  text-align: left;
+  justify-content: end;
+}
+
+.encontrar{
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  font-style: normal;
+  text-align: left;
+  margin-top: 16px;
+  justify-content: end;
+  margin-right: 147px;
+}
+
+button{
+  border: none;
+  outline:none;
+  background-color: transparent;
+}
+
+button#apple{
+  width: 303px;
+  height: 102px;
+  border-radius: 2px;
+  margin-right: 17.5px;
+  cursor: pointer; 
+}
+
+button#playstore{
+  width: 346px;
+  height: 102px;
+  border-radius: 2px;
+  margin-left: 17.5px;
+  cursor: pointer;
+}
+
+.botoncito{
+  margin: 0%;
+}
+.botoncito button {
+  width: 169px;
+  height: 55px;
+  outline: none;
+  border-radius: 21px;
+  cursor:pointer;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  color: white;
+  background: linear-gradient(113deg, 
+  #7affc1 0.00%, 
+  #0df287 100.00%);
+  border: transparent;
+  padding: 8px 14px;
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+}
+
+.botonext{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.botonext button{
+  width: 169px;
+  height: 55px;
+  outline: none;
+  border-radius: 21px;
+  cursor:pointer;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  color: white;
+  background: linear-gradient(113deg, 
+  #7affc1 0.00%, 
+  #0df287 100.00%);
+  border: transparent;
+  padding: 8px 14px;
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+}
+
+h1{
+  font-size: 50px;
+  width: 145px;
+  height: 48px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 59px;
+    height: 59px;
+    margin-top: -6;
+}
+
+.contenido{
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.contenido::before{
+  position: absolute;
+  content: '';
+  height: 1760px;
+  width: 1760px;
+  left: 509px;
+  top: 117px;
+  border-radius: 50%;
+  background: rgba(31,201,234,0.1 );
+  background: linear-gradient(180deg, rgba(31,201,234,0.1 ) 0.00%, rgba(0,255,162,0.1 ) 100.00%);
+  animation: object1 6s linear infinite;
+}
+
+.contenido:after{
+  position: absolute;
+  content: '';
+  width: 1091px;
+  height: 1091px;
+  left: -154px;
+  top: 117px;
+  border-radius: 50%;
+  background: rgba(119,254,110,0.32 );
+  background: linear-gradient(162deg, rgba(119,254,110,0.32 ) 0.00%, rgba(53,239,202,0.24 ) 100.00%);
+  animation: object2 6s linear infinite;
+}
+
+.esfera{
+  position: absolute;
+  content: '';
+  width: 244px;
+  height: 244px;
+  left: 746px;
+  top: 216px;
+  border-radius: 50%;
+  background: #e0f04b;
+  background: linear-gradient(180deg, 
+  #e0f04b 0.00%, 
+  #3ef5b2 100.00%);
+  animation: object2 6s linear infinite;
+}
+
+.esfera::before{
+  position: absolute;
+  content: '';
+  width: 419px;
+  height: 419px;
+  left: -832px;
+  top: 508px;
+  border-radius: 50%;
+  background: #1fc9ea;
+  background: linear-gradient(180deg, 
+  #1fc9ea 0.00%, 
+  #00ffa2 100.00%);
+  animation: object2 6s linear infinite;
+  z-index: -1;
+}
+
+
+.cols{
+  width: 50%;
+  z-index: 5;
+}
+
+.cols0{
+  margin-left: -348px;
+  margin-top: -410px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topline{
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.topline::after{
+  position:absolute;
+  content: '';
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: aquamarine ;
+}
+
+h2{
+  width: 727px;
+  height: 135px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  font-style: normal;
+  text-align: left;
+}
+
+.multiText{
+width: 605px;
+height: 135px;
+font-size: 60px;
+font-weight: bold;
+line-height: 60px;
+font-style: normal;
+text-align: left;
+background-color: #47F3B0;
+}
+
+.slogan{
+  color: #A2F273;
+}
+
+p{
+  width: 638px;
+  height: 154px;
+  
+  
+  font-family: "open sans";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #4a4a83;
+}
+
+.btns{
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+
+.imgbox{
+  margin-top: 267px;
+  margin-left: 175px;
+  margin-right: 200px;
+  position: relative;
+  height: 1260px;
+  width: 710px;
+  top: -100px;
+  right: 50px;
+  animation: 4s linear 0s infinite normal none running animateUser;
+}
+
+@keyframes animateUser{
+    50%{
+      right: 30px;
+      top: -90px;
+    }
+  }
+
+.imgbox #splash{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-35deg);
+  width: 160%;
+  filter: saturate(200%);
+  animation: animate 4s linear infinite;
+}
+
+.loader {
+  position: relative;
+  width: 597px;
+  height: 1256px;
+  background: transparent;
+  /* border-radius: 50%; */
+  /* box-shadow: 25px 25px 75px rgb(0 0 0 / 55%); */
+  /* border: 1px solid #333; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  /* inset: 20px; */
+  background: transparent;
+  border: 1px dashed#444;
+  border-radius: 80px;
+  box-shadow: inset -5px -5px 25px rgb(0 0 0 / 25%), inset 5px 5px 35px rgb(0 0 0 / 2);
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px dashed#444;
+  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+  inset 5px 5px 35px rgba(0,0,0,0.25);
+}
+
+.loader span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5%;
+  height: 40%;
+  background: transparent;
+  transform-origin: top left;
+  animation: radar81 2s linear infinite;
+  border-top: 1px dashed #fff;
+}
+
+.loader span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: seagreen;
+  transform-origin: top left;
+  transform: rotate(-55deg);
+  filter: blur(30px) drop-shadow(20px 20px 20px seagreen);
+}
+
+@keyframes radar81 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate{
+  50%{
+    right: 49%;
+    top: 51%;
+    width: 155%;
+  }
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .contenido{
+    overflow: auto;
+  }
+  nav{
+    height: 50px;
+    width: auto;
+    margin-top: 16px;
+  }
+
+  .logo{
+    margin-left: 230px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  .imgbox img{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1{
+    font-size: 25px;
+  }
+
+  .logo img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .botoncito button{
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 677px;
+    width: 677px;
+    top: 75px;
+    left: 348px;
+
+    }
+
+  .contenido::after{
+    height: 575px;
+    width: 575px;
+    left: -95px;
+    top: 75px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 300px;
+    height: 460px
+  }
+  .imgbox{
+    margin-top: -250px;
+    margin-left: -32px;
+  }
+
+  .cols0{
+    margin-left: -172px;
+    margin-top: -531px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 20px;
+    margin-top: -75px;
+    justify-content: flex-end;
+    margin-left: -30px;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: -27px;
+    margin-right: -77px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 50px;
+    margin-left: 258px;
+  }
+
+  p{
+    font-size: 15px;
+    text-align: center;
+    width: 415px;
+  }
+
+  .parrafo{
+    margin-top: 27px;
+    margin-left: 100px;
+  }
+
+  .emap{
+    margin-left: 445px;
+    margin-top: 111px;
+  }
+
+  .encontrar{
+    font-size: 30px;
+    margin-top: -25px;
+    margin-right: 11px;
+  }
+
+  .loader span{
+    width: 5%;
+    height: 15%;
+  }
+
+  .loader::after{
+    width: 50px;
+    height: 50px
+  }
+}
+
+@media screen and (max-width: 1336px){
+  h1{
+    font-size: 25px;
+  }
+
+  .logo img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .botoncito button{
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 900px;
+    width: 900px;
+    top: 75px;
+    left: 512px;
+
+    }
+
+  .contenido::after{
+    height: 900px;
+    width: 900px;
+    left: -189px;
+    top: 75px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 521px;
+    height: 727px;
+  }
+  .imgbox{
+    margin-top: -42px;
+    margin-left: 180px;
+  }
+
+  .cols0{
+    margin-left: -26px;
+    margin-top: -531px;
+  }
+
+  h2{
+    font-size: 40px;
+    margin-left: -89px;
+  }
+
+  .multiText{
+    font-size: 40px;
+  }
+
+  .coming{
+    font-size: 40px;
+    margin-top: -75px;
+    justify-content: flex-end;
+    margin-left: 80px;
+  }
+  
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: -27px;
+    margin-right: -77px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 50px;
+    margin-left: 258px;
+  }
+
+  p{
+    font-size: 20px;
+    text-align: center;
+    width: 494px;
+  }
+
+  .parrafo{
+    margin-top: 27px;
+    margin-left: 100px;
+  }
+
+  .emap{
+    margin-left: 445px;
+    margin-top: 111px;
+  }
+
+  .encontrar{
+    font-size: 40px;
+    margin-top: -11px;
+    margin-right: 11px;
+  }
+
+  .loader span{
+    width: 5%;
+    height: 15%;
+  }
+
+  .loader::after{
+    width: 50px;
+    height: 50px
+  }
+}
+
+@media screen and (max-width: 1440px){
+  h1{
+    font-size: 35px;
+  }
+
+  .logo img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .botoncito button{
+    font-size: 18px;
+    height: 40px;
+    width: 125px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 900px;
+    width: 900px;
+    top: 75px;
+    left: 512px;
+
+  }
+
+  .contenido::after{
+    height: 900px;
+    width: 900px;
+    left: -189px;
+    top: 75px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 521px;
+    height: 727px;
+  }
+  .imgbox{
+    margin-top: -42px;
+    margin-left: 67px;
+  }
+
+  .cols0{
+    margin-left: -205px;
+    margin-top: -531px;
+  }
+
+  h2{
+    font-size: 40px;
+    margin-left: -89px;
+  }
+
+  .multiText{
+    font-size: 40px;
+  }
+
+  .coming{
+    font-size: 40px;
+    margin-top: -75px;
+    justify-content: flex-end;
+    margin-left: 80px;
+  }
+  
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: 16px;
+    margin-right: -77px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 50px;
+    margin-left: 258px;
+  }
+
+  p{
+    font-size: 20px;
+    text-align: center;
+    width: 494px;
+  }
+
+  .parrafo{
+    margin-top: 27px;
+    margin-left: 100px;
+  }
+
+  .emap{
+    margin-left: 445px;
+    margin-top: 111px;
+  }
+
+  .encontrar{
+    font-size: 40px;
+    margin-top: -11px;
+    margin-right: 11px;
+  }
+
+  .loader span{
+    width: 5%;
+    height: 15%;
+  }
+
+  .loader::after{
+    width: 50px;
+    height: 50px
+  }
+}
+
+@media screen and (max-width:1680px) {
+  
+  .cols0{
+    margin-left: 40px;
+  }
+
+  .imgbox{
+    margin-left: 325px;
+  }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+

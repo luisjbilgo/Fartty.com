@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    min-height: 100vh ;
+    background-color: white;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    background-color: white;
+    margin-top: 44px;
+}
+
+.Titulo{
+  padding-left: 300px;
+  padding-right: 196px;
+}
+
+.iconito{
+  display: flex;
+  justify-content: center;
+  height: 89px;
+  margin-top: -300px;
+}
+
+.parrafo{
+  margin-top: 93px;
+}
+
+.coming{
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  justify-content: center;
+  margin-top: 149px;
+}
+
+button{
+  border: none;
+  outline:none;
+  background-color: transparent;
+}
+
+button#apple{
+  width: 303px;
+  height: 102px;
+  border-radius: 2px;
+  margin-right: 17.5px;
+  cursor: pointer; 
+}
+
+button#playstore{
+  width: 346px;
+  height: 102px;
+  border-radius: 2px;
+  margin-left: 17.5px;
+  cursor: pointer;
+}
+
+.botoncito{
+  margin: 0%;
+}
+.botoncito button {
+  width: 169px;
+  height: 55px;
+  outline: none;
+  border-radius: 21px;
+  cursor:pointer;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  color: white;
+  background: linear-gradient(113deg, 
+  #7affc1 0.00%, 
+  #0df287 100.00%);
+  border: transparent;
+  padding: 8px 14px;
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+}
+
+.botonext{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.botonext button{
+  width: 169px;
+  height: 55px;
+  outline: none;
+  border-radius: 21px;
+  cursor:pointer;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  color: white;
+  background: linear-gradient(113deg, 
+  #7affc1 0.00%, 
+  #0df287 100.00%);
+  border: transparent;
+  padding: 8px 14px;
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+}
+
+
+h1{
+  font-size: 50px;
+  width: 145px;
+  height: 48px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 59px;
+    height: 59px;
+    margin-top: -6;
+}
+
+.contenido{
+  display: flex;
+  height: 100%;
+  padding: 0 10%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.contenido::before{
+  position: absolute;
+  content: '';
+  height: 1026px;
+  width: 1026px;
+  left: -21px;
+  top: 91px;
+  border-radius: 50%;
+  background: rgba(31,201,234,0.1 );
+  background: linear-gradient(180deg, 
+  rgba(31,201,234,0.1 ) 0.00%, 
+  rgba(0,255,162,0.1 ) 100.00%);
+  animation: object1 6s linear infinite;
+}
+
+.contenido:after{
+  position: absolute;
+  content: '';
+  width: 617px;
+  height: 617px;
+  left: 179px;
+  top: 296px;
+  border-radius: 50%;
+  background: #77fe6e;
+  background: linear-gradient(174deg, 
+  #77fe6e 0.00%, 
+  #35efca 100.00%);
+  animation: object1 6s linear infinite;
+}
+
+.esfera{
+  position: absolute;
+  content: '';
+  width: 244px;
+  height: 244px;
+  left: 746px;
+  top: 216px;
+  border-radius: 50%;
+  background: #e0f04b;
+  background: linear-gradient(180deg, 
+  #e0f04b 0.00%, 
+  #3ef5b2 100.00%);
+  animation: object3 3s linear infinite;
+}
+
+.esfera::before{
+  position: absolute;
+  content: '';
+  width: 419px;
+  height: 419px;
+  left: -832px;
+  top: 508px;
+  border-radius: 50%;
+  background: #1fc9ea;
+  background: linear-gradient(180deg, 
+  #1fc9ea 0.00%, 
+  #00ffa2 100.00%);
+  animation: object2 3s linear infinite;
+  z-index: -1;
+}
+
+
+.cols{
+  width: 50%;
+  z-index: 5;
+}
+
+.cols0{
+  margin-left: 514px;
+}
+
+.topline{
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.topline::after{
+  position:absolute;
+  content: '';
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: aquamarine ;
+}
+
+h2{
+  width: 605px;
+  height: 135px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  font-style: normal;
+  text-align: left;
+}
+
+.multiText{
+width: 605px;
+height: 135px;
+font-size: 60px;
+font-weight: bold;
+line-height: 60px;
+font-style: normal;
+text-align: left;
+background-color: #47F3B0;
+}
+
+.slogan{
+  color: #A2F273;
+}
+
+p{
+  width: 638px;
+  height: 154px;
+  
+  
+  font-family: "open sans";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #4a4a83;
+}
+
+.btns{
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+
+
+.imgbox{
+  margin-top: 200px;
+  position: relative;
+  height: 805px;
+  width: 453px;
+  top: -100px;
+  right: 50px;
+  animation: animateUser 4s linear infinite;
+}
+
+@keyframes animateUser{
+    50%{
+      right: 30px;
+      top: -90px;
+    }
+  }
+
+.imgbox #splash{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-35deg);
+  width: 160%;
+  filter: saturate(200%);
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+  50%{
+    right: 49%;
+    top: 51%;
+    width: 155%;
+  }
+}
+
+@keyframes object2{
+  50%{
+    top: 40%;
+  }
+}
+
+@keyframes object3{
+  50%{
+    top: 40%;
+  }
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .contenido{
+    overflow: auto;
+  }
+  nav{
+    height: 50px;
+    width: auto;
+    margin-top: 16px;
+  }
+
+  .logo{
+    margin-left: 230px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  .imgbox img{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1{
+    font-size: 25px;
+  }
+
+  .logo img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .botoncito button{
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 513px;
+    width: 513px;
+  }
+
+  .contenido::after{
+    height: 308px;
+    width: 308px;
+    left: 72px;
+    top: 200px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 250px;
+    height: 400px;
+  }
+  .imgbox{
+    margin-top: 164px;
+    margin-left: -90px;
+  }
+
+  .cols0{
+    margin-left: -172px;
+    margin-top: -400px
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 20px;
+    margin-top: -34px;
+    justify-content: flex-end;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 50px;
+    margin-left: 258px;
+  }
+
+  p{
+    font-size: 18px;
+    text-align: center;
+    width: 450px;
+  }
+
+  .parrafo{
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1336px){
+  h1{
+    font-size: 25px;
+  }
+
+  .logo img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .botoncito button{
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 710px;
+    width: 710px;
+  }
+
+  .contenido::after{
+    height: 450px;
+    width: 450px;
+    left: 91px;
+    top: 230px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 353px;
+    height: 580px;
+  }
+  .imgbox{
+    margin-top: 164px;
+    margin-left: -90px;
+  }
+
+  .cols0{
+    margin-left: -172px;
+    margin-top: -400px
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 20px;
+    margin-top: -34px;
+    justify-content: flex-end;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: 70px;
+    margin-right: 10px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 65px;
+    margin-left: 363px;
+  }
+
+  p{
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+  }
+
+  .parrafo{
+    margin-top: 60px;
+    margin-left: 220px
+  }
+}
+
+@media screen and (max-width: 1440px){
+  h1{
+    font-size: 35px;
+  }
+
+  .logo img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .botoncito button{
+    font-size: 18px;
+    height: 40px;
+    width: 131px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 825px;
+    width: 825px;
+  }
+
+  .contenido::after{
+    height: 560px;
+    width: 560px;
+    left: 91px;
+    top: 230px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 425px;
+    height: 700px;
+  }
+  .imgbox{
+    margin-top: 164px;
+    margin-left: -90px;
+  }
+
+  .cols0{
+    margin-left: -172px;
+    margin-top: -154px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 20px;
+    margin-top: -34px;
+    justify-content: flex-end;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: center;
+    margin-top: 70px;
+    margin-right: -355px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 65px;
+    margin-left: 363px;
+  }
+
+  p{
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+  }
+
+  .parrafo{
+    margin-top: 60px;
+    margin-left: 220px
+  }
+}
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
