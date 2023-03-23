@@ -235,7 +235,7 @@ h1{
 }
 
 .cols0{
-  margin-left: -348px;
+  margin-left: -85px;
   margin-top: -410px;
   display: flex;
   flex-direction: column;
@@ -374,7 +374,8 @@ p{
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and 
+(max-width:1280px) {
   h1{
     font-size: 25px;
   }
@@ -423,16 +424,16 @@ p{
   }
 
   .imgbox img{
-    width: 300px;
+    width: 275px;
     height: 460px
   }
   .imgbox{
     margin-top: 118px;
-    margin-left: 73px;
+    margin-left: 145px;
   }
 
   .cols0{
-    margin-left: -172px;
+    margin-left: -113px;
     margin-top: -900px;
   }
 
@@ -446,7 +447,6 @@ p{
   .best{
     width: 189px;
     height: 44px;
-    margin-left: 40px;
     margin-top: -20px;  
   }
 
@@ -462,7 +462,6 @@ p{
     font-size: 20px;
     margin-top: 26px;
     justify-content: flex-end;
-    margin-left: 40px;
     height: 200px;
     width: 300px;
   }
@@ -490,7 +489,6 @@ p{
   .botonext{
     justify-content: flex-end;
     margin-top: -27px;
-    margin-right: -77px;
   }
 
   .iconito{
@@ -507,18 +505,15 @@ p{
 
   .parrafo{
     margin-top: 27px;
-    margin-left: 100px;
   }
 
   .emap{
-    margin-left: 445px;
     margin-top: 111px;
   }
 
   .encontrar{
     font-size: 30px;
     margin-top: -25px;
-    margin-right: 11px;
   }
 
   .loader span{
@@ -532,18 +527,19 @@ p{
   }
 }
 
-@media screen and (max-width: 1336px) {
+@media screen and (min-width: 1280px) and
+(max-width:1336px) {
   h1{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .logo img{
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
   }
 
   .botoncito button{
-    font-size: 12px;
+    font-size: 15px;
     height: 40px;
     width: 100px;
   }
@@ -581,17 +577,18 @@ p{
   }
 
   .imgbox img{
-    width: 353px;
-    height: 580px;
+    width: 398px;
+    height: 647px;
   }
+
   .imgbox{
     margin-top: 172px;
-    margin-left: 336px;
+    margin-left: 251px;
   }
 
   .cols0{
-    margin-left: -22px;
-    margin-top: -766px;
+     margin-left: -22px;
+    margin-top: -661px;
   }
 
   h2{
@@ -609,7 +606,7 @@ p{
   }
 
   .you{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .multiText{
@@ -617,7 +614,7 @@ p{
   }
 
   .coming{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 26px;
     justify-content: flex-end;
     margin-left: 40px;
@@ -658,9 +655,9 @@ p{
   }
 
   p{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    width: 415px;
+    width: 458px;
   }
 
   .parrafo{
@@ -690,7 +687,8 @@ p{
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1337px) and 
+(max-width:1500px){
   h1{
     font-size: 35px;
   }
@@ -739,19 +737,19 @@ p{
   }
 
   .imgbox img{
-    width: 425px;
-    height: 700px;
+    width: 313px;
+    height: 514px;
   }
 
   .imgbox{
     margin-top: 159px;
-    margin-left: 229px;
+    margin-left: 360px;
   }
 
 
   .cols0{
     margin-left: -83px;
-    margin-top: -634px;
+    margin-top: -751px;
   }
 
   h2{
@@ -777,7 +775,167 @@ p{
   }
 
   .coming{
+    font-size: 15px;
+    margin-top: 26px;
+    justify-content: flex-end;
+    margin-left: 40px;
+    height: 244px;
+    width: 293px;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: -44px;
+    margin-right: -36px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 50px;
+    margin-left: 258px;
+  }
+
+  p{
+    font-size: 15px;
+    text-align: center;
+    width: 440px;
+  }
+
+  .parrafo{
+    margin-top: 27px;
+    margin-left: 50px;
+  }
+
+  .emap{
+    margin-left: 445px;
+    margin-top: 111px;
+  }
+
+  .encontrar{
+    font-size: 30px;
+    margin-top: -25px;
+    margin-right: 11px;
+  }
+
+  .loader span{
+    width: 5%;
+    height: 15%;
+  }
+
+  .loader::after{
+    width: 50px;
+    height: 50px
+  }
+}
+
+@media screen and (min-width: 1501px) and 
+(max-width:1800px){
+  h1{
+    font-size: 30px;
+  }
+
+  .logo img{
+    height: 45px;
+    width: 45px;
+  }
+
+  .botoncito button{
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 900px;
+    width: 900px;
+    top: 75px;
+    left: 512px;
+
+    }
+
+  .contenido::after{
+    height: 900px;
+    width: 900px;
+    left: -189px;
+    top: 75px;
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 398px;
+    height: 647px;
+  }
+
+  .imgbox{
+    margin-top: 172px;
+    margin-left: 251px;
+  }
+
+  .cols0{
+     margin-left: -22px;
+    margin-top: -661px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+  .slogan{
+    font-size: 25px;
+  }
+
+  .best{
+    width: 189px;
+    height: 44px;
+    margin-left: 40px;
+    margin-top: -20px;  
+  }
+
+  .you{
     font-size: 20px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 30px;
     margin-top: 26px;
     justify-content: flex-end;
     margin-left: 40px;
@@ -820,7 +978,7 @@ p{
   p{
     font-size: 20px;
     text-align: center;
-    width: 440px;
+    width: 458px;
   }
 
   .parrafo{
@@ -847,17 +1005,6 @@ p{
   .loader::after{
     width: 50px;
     height: 50px
-  }
-}
-
-@media screen and (max-width:1680px) {
-  
-  .cols0{
-    margin-left: 40px;
-  }
-
-  .imgbox{
-    margin-left: 325px;
   }
 }
 

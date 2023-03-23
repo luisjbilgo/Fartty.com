@@ -276,6 +276,11 @@ p{
   margin-top: 60px;
 }
 
+.imgbox img{
+  height: 806px;
+  width: 481px;
+  margin-left: 50px;
+}
 
 .imgbox{
   margin-top: 200px;
@@ -349,7 +354,8 @@ p{
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and 
+(max-width:1280px) {
   h1{
     font-size: 25px;
   }
@@ -383,15 +389,15 @@ p{
   .esfera{
     width: 122px;
     height: 122px;
-    left: 746px;
-    top: 69px;
+    left: 378px;
+    top: 114px;
   }
 
   .esfera::before{
     width: 208px;
     height: 208px;
-    left: -832px;
-    top: 508px;
+    left: -425px;
+    top: 356px;
   }
 
   .imgbox img{
@@ -466,18 +472,19 @@ p{
   }
 }
 
-@media screen and (max-width: 1336px){
+@media screen and (min-width: 1280px) and
+(max-width:1336px) {
   h1{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .logo img{
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
   }
 
   .botoncito button{
-    font-size: 12px;
+    font-size: 15px;
     height: 40px;
     width: 100px;
   }
@@ -498,6 +505,242 @@ p{
     top: 230px;
   }
   .esfera{
+    width: 150px;
+    height: 150px;
+    left: 578px;
+    top: 114px;
+  }
+
+  .esfera::before{
+    width: 250px;
+    height: 250px;
+    left: -608px;
+    top: 589px;
+  }
+
+  .imgbox img{
+    width: 353px;
+    height: 580px;
+  }
+  .imgbox{
+    margin-top: 164px;
+    margin-left: 38px;
+  }
+
+  .cols0{
+    margin-left: 214px;
+    margin-top: -221px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 20px;
+    margin-top: -34px;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    margin-top: 70px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 65px;
+  }
+
+  p{
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+  }
+
+  .parrafo{
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1337px) and 
+(max-width:1500px){
+  h1{
+    font-size: 35px;
+  }
+
+  .logo img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .botoncito button{
+    font-size: 18px;
+    height: 40px;
+    width: 131px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 825px;
+    width: 825px;
+  }
+
+  .contenido::after{
+    height: 560px;
+    width: 560px;
+    left: 91px;
+    top: 230px;
+  }
+  .esfera{
+    width: 150px;
+    height: 150px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 250px;
+    height: 250px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 361px;
+    height: 566px;
+  }
+  
+
+  .imgbox{
+    margin-top: 164px;
+    margin-left: 71px;
+  }
+
+  .cols0{
+    margin-left: 361px;
+    margin-top: -262px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .multiText{
+    font-size: 30px;
+  }
+
+  .coming{
+    font-size: 20px;
+    margin-top: -34px;
+    justify-content: flex-end;
+  }
+
+  .apple img{
+    width: 175px;
+    height: 60px;
+    margin-right: -39.5px;
+  }
+
+  .playstore img{
+    width: 175px;
+    height: 60px;
+  }
+  .btns {
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .iconito{
+    margin-top: -80px;
+    height: 65px;
+  }
+
+  p{
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+  }
+
+  .parrafo{
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1500px) and 
+(max-width:1800px){
+  h1{
+    font-size: 25px;
+  }
+
+  .logo img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .botoncito button{
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 900px;
+    width: 900px;
+    margin-left: -50px;
+  }
+
+  .contenido::after{
+    height: 600px;
+    width: 600px;
+    left: 50px;
+    top: 230px;
+  }
+  .esfera{
     width: 122px;
     height: 122px;
     left: 746px;
@@ -512,17 +755,20 @@ p{
   }
 
   .imgbox img{
-    width: 353px;
-    height: 580px;
+    width: 464px;
+    height: 740px;
   }
   .imgbox{
     margin-top: 164px;
-    margin-left: -90px;
+    margin-left: -73px;
   }
 
   .cols0{
-    margin-left: -172px;
-    margin-top: -400px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -68px;
+    margin-left: 361px;
   }
 
   h2{
@@ -567,154 +813,21 @@ p{
 
   .iconito{
     margin-top: -80px;
-    height: 65px;
-    margin-left: 363px;
+  }
+
+  .iconito img{
+    height: 80px;
+    width: 80px;
   }
 
   p{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    width: 450px;
+    width: 516px;
   }
 
   .parrafo{
     margin-top: 60px;
-    margin-left: 220px
   }
 }
-
-@media screen and (max-width: 1440px){
-  h1{
-    font-size: 35px;
-  }
-
-  .logo img{
-    height: 50px;
-    width: 50px;
-  }
-
-  .botoncito button{
-    font-size: 18px;
-    height: 40px;
-    width: 131px;
-  }
-
-  nav{
-    margin-top: 15px;
-  }
-
-  .contenido::before{
-    height: 825px;
-    width: 825px;
-  }
-
-  .contenido::after{
-    height: 560px;
-    width: 560px;
-    left: 91px;
-    top: 230px;
-  }
-  .esfera{
-    width: 122px;
-    height: 122px;
-    left: 746px;
-    top: 69px;
-  }
-
-  .esfera::before{
-    width: 208px;
-    height: 208px;
-    left: -832px;
-    top: 508px;
-  }
-
-  .imgbox img{
-    width: 425px;
-    height: 700px;
-  }
-  .imgbox{
-    margin-top: 164px;
-    margin-left: -90px;
-  }
-
-  .cols0{
-    margin-left: -172px;
-    margin-top: -154px;
-  }
-
-  h2{
-    font-size: 30px;
-  }
-
-  .multiText{
-    font-size: 30px;
-  }
-
-  .coming{
-    font-size: 20px;
-    margin-top: -34px;
-    justify-content: flex-end;
-  }
-
-  .apple img{
-    width: 175px;
-    height: 60px;
-    margin-right: -39.5px;
-  }
-
-  .playstore img{
-    width: 175px;
-    height: 60px;
-  }
-  .btns {
-    margin-left: 135px;
-    margin-top: 10px;
-  }
-  .botonext button{
-    font-size: 12px;
-    width: 100px;
-    height: 38px;
-  }
-
-  .botonext{
-    justify-content: center;
-    margin-top: 70px;
-    margin-right: -355px;
-  }
-
-  .iconito{
-    margin-top: -80px;
-    height: 65px;
-    margin-left: 363px;
-  }
-
-  p{
-    font-size: 25px;
-    text-align: center;
-    width: 450px;
-  }
-
-  .parrafo{
-    margin-top: 60px;
-    margin-left: 220px
-  }
-}
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 

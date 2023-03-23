@@ -260,6 +260,11 @@ p{
   margin-top: 60px;
 }
 
+.imgbox img{
+  height: 806px;
+  width: 481px;
+}
+
 
 
 .imgbox{
@@ -270,6 +275,7 @@ p{
   top: -100px;
   right: 50px;
   animation: animateUser 4s linear infinite;
+  margin-left: 168px;
 }
 
 @keyframes animateUser{
@@ -329,7 +335,8 @@ p{
   }
 }
 
-@media (max-width: 1280px) {
+@media screen and (min-width: 1024px) and 
+(max-width:1280px) {
   h1{
     font-size: 25px;
   }
@@ -363,15 +370,15 @@ p{
   .esfera{
     width: 122px;
     height: 122px;
-    left: 746px;
-    top: 69px;
+    left: 454px;
+    top: 114px;
   }
 
   .esfera::before{
     width: 208px;
     height: 208px;
-    left: -832px;
-    top: 508px;
+    left: -550px;
+    top: 356px;
   }
 
   .imgbox img{
@@ -380,16 +387,20 @@ p{
   }
   .imgbox{
     margin-top: 164px;
-    margin-left: -90px;
+    margin-left: 67px;
   }
 
   .cols0{
-    margin-left: -172px;
-    margin-top: -400px
+    margin-left: 130px;
+    margin-top: -353px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   h2{
     font-size: 30px;
+    width: 310px;
   }
 
   .multiText{
@@ -398,8 +409,9 @@ p{
 
   .coming{
     font-size: 20px;
-    margin-top: -34px;
+    margin-top: 31px;
     justify-content: flex-end;
+
   }
 
   .apple img{
@@ -413,7 +425,6 @@ p{
     height: 60px;
   }
   .btns {
-    margin-left: 135px;
     margin-top: 10px;
   }
   .botonext button{
@@ -425,22 +436,22 @@ p{
   .botonext{
     justify-content: flex-end;
     margin-top: 10px;
-    margin-right: 29px;
   }
 }
 
-@media screen and (max-width: 1336px) {
+@media screen and (min-width: 1280px) and
+(max-width:1336px) {
   h1{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .logo img{
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
   }
 
   .botoncito button{
-    font-size: 12px;
+    font-size: 15px;
     height: 40px;
     width: 100px;
   }
@@ -461,15 +472,15 @@ p{
     top: 230px;
   }
   .esfera{
-    width: 122px;
-    height: 122px;
+    width: 150px;
+    height: 150px;
     left: 746px;
     top: 69px;
   }
 
   .esfera::before{
-    width: 208px;
-    height: 208px;
+    width: 258px;
+    height: 258px;
     left: -832px;
     top: 508px;
   }
@@ -480,19 +491,20 @@ p{
   }
   .imgbox{
     margin-top: 164px;
-    margin-left: -90px;
+    margin-left: 93px;
   }
 
   .cols0{
-    margin-left: -172px;
-    margin-top: -400px
+    margin-left: 170px;
+    margin-top: -201px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   h2{
     font-size: 40px;
-    width: 400px;
-    margin-top: 71px;
-    margin-left: 163px;
+    width: 396px;
   }
 
   .multiText{
@@ -501,22 +513,21 @@ p{
 
   .coming{
     font-size: 20px;
-    margin-top: 60px;
+    margin-top: 31px;
     justify-content: flex-end;
   }
 
   .apple img{
-    width: 175px;
-    height: 60px;
-    margin-right: -39.5px;
+    width: 222px;
+    height: 78px;
+    margin-right: -35px;
   }
 
   .playstore img{
-    width: 175px;
-    height: 60px;
+    width: 222px;
+    height: 75px;
   }
   .btns {
-    margin-left: 135px;
     margin-top: 10px;
   }
   .botonext button{
@@ -528,11 +539,11 @@ p{
   .botonext{
     justify-content: flex-end;
     margin-top: 10px;
-    margin-right: 29px;
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1337px) and 
+(max-width:1500px){
   h1{
     font-size: 35px;
   }
@@ -578,8 +589,8 @@ p{
   }
 
   .imgbox img{
-    width: 425px;
-    height: 700px;
+    width: 361px;
+    height: 566px;
   }
   .imgbox{
     margin-top: 164px;
@@ -588,7 +599,7 @@ p{
 
   .cols0{
     margin-left: -172px;
-    margin-top: -400px
+    margin-top: -489px;
   }
 
   h2{
@@ -634,6 +645,119 @@ p{
     margin-right: 63px;
   }
 }
+
+@media screen and (min-width: 1500px) and 
+(max-width:1800px){
+
+  .contenido{
+    padding: 0% 5%;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  .logo img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .botoncito button{
+    font-size: 18px;
+    height: 40px;
+    width: 131px;
+  }
+
+  nav{
+    margin-top: 15px;
+  }
+
+  .contenido::before{
+    height: 900px;
+    width: 900px;
+    margin-left: -50px;
+  }
+
+  .contenido::after{
+    height: 600px;
+    width: 600px;
+    left: 50px;
+    top: 230px;
+
+  }
+  .esfera{
+    width: 122px;
+    height: 122px;
+    left: 746px;
+    top: 69px;
+  }
+
+  .esfera::before{
+    width: 208px;
+    height: 208px;
+    left: -832px;
+    top: 508px;
+  }
+
+  .imgbox img{
+    width: 464px;
+    height: 740px;
+  }
+  .imgbox{
+    margin-top: 164px;
+    margin-left: 93px;
+  }
+
+  .cols0{
+    margin-left: 80px;
+    margin-top: -211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2{
+    font-size: 60px;
+    width: 600px;
+    margin-top: 293px;
+  }
+
+  .multiText{
+    font-size: 60px;
+  }
+
+  .coming{
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .apple img{
+    width: 195px;
+    height: 65px;
+    margin-right: -181.5px;
+  }
+
+  .playstore img{
+    width: 195px;
+    height: 65px;
+    margin-left: -63.5px;
+  }
+  .btns {
+    margin-top: 10px;
+  }
+  .botonext button{
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+
+  .botonext{
+    justify-content: flex-end;
+    margin-top: 36px;
+  }
+}
+
+
 
 
   
