@@ -24,6 +24,11 @@ nav{
     margin-top: 44px;
 }
 
+.frase{
+  display: flex;
+  justify-content: center;
+}
+
 .Titulo{
   padding-left: 300px;
   padding-right: 196px;
@@ -228,7 +233,7 @@ h2{
   font-weight: bold;
   line-height: 60px;
   font-style: normal;
-  text-align: left;
+  text-align: center;
 }
 
 .multiText{
@@ -239,12 +244,8 @@ font-weight: bold;
 line-height: 60px;
 font-style: normal;
 text-align: left;
-background-color: #47F3B0;
 }
 
-.slogan{
-  color: #A2F273;
-}
 
 p{
   display: block;
@@ -606,7 +607,7 @@ p{
     font-size: 50px;
     width: 495px;
     margin-top: 293px;
-    margin-left: 227px;
+    margin-left: 280px;
   }
 
   .multiText{

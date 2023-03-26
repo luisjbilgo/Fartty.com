@@ -9,6 +9,142 @@
 body{
     overflow: overflow;
 }
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.equipo{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 50px;
+}
+.profile-card{
+  position: relative;
+  width: 322px;
+  height: 322px;
+  background: #00ffa2;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+  margin-top: 110px;
+}
+
+.profile-card-1{
+  position: relative;
+  width: 322px;
+  height: 322px;
+  background: linear-gradient(113deg, 
+  #59ff00 0.00%, 
+  #0df287 100.00%);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+  margin-top: 110px;
+}
+
+.profile-card-2{
+  position: relative;
+  width: 322px;
+  height: 322px;
+  background: linear-gradient(174deg, 
+  #77fe6e 0.00%, 
+  #35efca 100.00%);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+  margin-top: 110px;
+}
+
+.profile-card-3{
+  position: relative;
+  width: 322px;
+  height: 322px;
+  background: linear-gradient(180deg, 
+  #e0f04b 0.00%, 
+  #3ef5b2 100.00%);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+  margin-top: 110px;
+}
+
+.profile-card-4{
+  position: relative;
+  width: 322px;
+  height: 322px;
+  background: linear-gradient(180deg, 
+  #1fc9ea 0.00%, 
+  #00ffa2 100.00%);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+  margin-top: 110px;
+}
+.profile-card-1:hover, .profile-card-2:hover ,.profile-card-3:hover, .profile-card-4:hover{
+  border-radius: 10px;
+  height: 422px;
+}
+.profile-card-1 .img,.profile-card-2 .img,.profile-card-3 .img,.profile-card-4 .img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: .6s;
+  z-index: 99;
+}
+.profile-card-1:hover .img,.profile-card-2:hover .img,.profile-card-3:hover .img,.profile-card-4:hover .img{
+  transform: translateY(-60px);
+}
+.img img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+}
+.profile-card-1:hover img,.profile-card-2:hover img,.profile-card-3:hover img,.profile-card-4:hover img,.profile-card-5:hover img{
+  border-radius: 10px;
+}
+.caption{
+  text-align: center;
+  transform: translateY(-120px);
+  opacity: 0;
+  transition: .6s;
+}
+.profile-card-1:hover .caption,.profile-card-2:hover .caption,.profile-card-3:hover .caption,.profile-card-4:hover .caption{
+  opacity: 1;
+}
+.caption h3{
+  font-size: 21px;
+}
+.caption p{
+  font-size: 18px;
+  color: #ffffff;
+  margin: 2px 0 9px 0;
+  font-weight: bold;
+}
+.caption .social-links a{
+  color: #333;
+  margin-right: 8px;
+  font-size: 21px;
+  transition: .6s;
+}
+.social-links a:hover{
+  color: #0c52a1;
+}
 .container{
     width: 100%;
     min-height: 100vh ;
@@ -25,70 +161,6 @@ nav{
     margin-top: 44px;
 }
 
-.Titulo{
-  padding-left: 300px;
-  padding-right: 196px;
-}
-
-.iconito{
-  display: flex;
-  justify-content: center;
-  height: 89px;
-  margin-top: -300px;
-}
-
-.parrafo{
-  margin-top: 93px;
-  margin-left: -254px;
-}
-
-.email input{
-  width: 880px;
-  height: 85px;
-  margin-top: 34px;
-  margin-left: -267px;
-  border-radius: 25px;
-  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
-  background: #ffffff;
-  font-size: 30px;
-}
-
-.coming{
-  display: flex;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 40px;
-  font-style: normal;
-  text-align: left;
-  justify-content: center;
-  margin-top: 149px;
-}
-
-button{
-  border: none;
-  outline:none;
-  background-color: transparent;
-}
-
-button#apple{
-  width: 303px;
-  height: 102px;
-  border-radius: 2px;
-  margin-right: 17.5px;
-  cursor: pointer; 
-}
-
-button#playstore{
-  width: 346px;
-  height: 102px;
-  border-radius: 2px;
-  margin-left: 17.5px;
-  cursor: pointer;
-}
-
-.botoncito{
-  margin: 0%;
-}
 .botoncito button {
   width: 169px;
   height: 55px;
@@ -107,29 +179,18 @@ button#playstore{
   filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
 }
 
-.botonext{
+.Titulo{
+  padding-left: 300px;
+  padding-right: 196px;
+}
+
+.iconito{
   display: flex;
   justify-content: center;
-  margin-top: 45px;
-  margin-left: -650px;
+  height: 89px;
+  margin-top: -300px;
 }
-.botonext button{
-  width: 169px;
-  height: 55px;
-  outline: none;
-  border-radius: 21px;
-  cursor:pointer;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 25px;
-  color: white;
-  background: linear-gradient(113deg, 
-  #7affc1 0.00%, 
-  #0df287 100.00%);
-  border: transparent;
-  padding: 8px 14px;
-  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
-}
+
 
 
 h1{
@@ -142,210 +203,10 @@ h1{
     width: 59px;
     height: 59px;
     margin-top: -6;
-}
-
-.contenido{
-  display: flex;
-  height: 100%;
-  padding: 0 10%;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
-.contenido::before{
-  position: absolute;
-  content: '';
-  height: 1538px;
-  width: 1538px;
-  left: 400px;
-  top: 91px;
-  border-radius: 50%;
-  background: rgba(31,201,234,0.1 );
-  background: linear-gradient(180deg, 
-  rgba(31,201,234,0.1 ) 0.00%, 
-  rgba(0,255,162,0.1 ) 100.00%);
-  animation: object1 6s linear infinite;
-}
-
-.contenido:after{
-  position: absolute;
-  content: '';
-  width: 674px;
-  height: 674px;
-  left: -163px;
-  top: 222px;
-  border-radius: 50%;
-  background: #77fe6e;
-  background: linear-gradient(174deg, #77fe6e 0.00%, #35efca 100.00%);
-  animation: object2 6s linear infinite;
-}
-
-.esfera{
-  position: absolute;
-  content: '';
-  width: 244px;
-  height: 244px;
-  left: 746px;
-  top: 216px;
-  border-radius: 50%;
-  background: #e0f04b;
-  background: linear-gradient(180deg, 
-  #e0f04b 0.00%, 
-  #3ef5b2 100.00%);
-  animation: object2 6s linear infinite;
-}
-
-.esfera::before{
-  position: absolute;
-  content: '';
-  width: 419px;
-  height: 419px;
-  left: -832px;
-  top: 508px;
-  border-radius: 50%;
-  background: #1fc9ea;
-  background: linear-gradient(180deg, 
-  #1fc9ea 0.00%, 
-  #00ffa2 100.00%);
-  animation: object2 6s linear infinite;
-  z-index: -1;
-}
-
-.video{
-  width: 1127px;
-  height: 661px;
-  border-radius: 41px;
-  margin-left: -351px;
-  margin-top: 88px;
-  background: rgba(93,249,188,0.66);
-}
-
-.best{
-  width: 957px;
-  height: 66px;
-  border-radius: 33px;
-  background: rgba(255,255,255,0.79 );
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 78px;
-  margin-left: -261px;
-}
-
-.privilegio h3{
-  width: 1238px;
-  height: 60px;
-  font-size: 60px;
-  font-weight: bold;
-  font-style: normal;
-  color: #00000f;
-  top: 50px;
-  margin-top: 106px;
-  margin-left: -483px
-
+    border: transparent;
 }
 
 
-.cols{
-  width: 50%;
-  z-index: 5;
-}
-
-.cols0{
-}
-
-
-
-.topline{
-  display: block;
-  position: relative;
-  font-size: 35px;
-  letter-spacing: 5px;
-  color: rgb(0, 0, 0);
-}
-
-.topline::after{
-  position:absolute;
-  content: '';
-  height: 4px;
-  width: 45px;
-  bottom: 10px;
-  background-color: aquamarine ;
-}
-
-h2{
-  width: 307px;
-  height: 211px;
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 60px;
-  font-style: normal;
-  text-align: left;
-  margin-left: -56px;
-  margin-top: -360px;
-}
-
-
-h4{
-  width: 483px;
-  height: 31px;
-  margin-left: 177px;
-  color: #4a4a83;
-  font-family: "open sans";
-}
-
-.multiText{
-width: 605px;
-height: 135px;
-font-size: 60px;
-font-weight: bold;
-line-height: 60px;
-font-style: normal;
-text-align: left;
-background-color: #47F3B0;
-}
-
-.slogan{
-  color: #A2F273;
-}
-
-p{
-  width: 913px;
-  height: 113px;
-  
-  
-  font-family: "open sans";
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 30px;
-  font-style: normal;
-  text-align: left;
-  color: #4a4a83;
-}
-
-.btns{
-  display: flex;
-  width: 100%;
-  position: relative;
-  margin-top: 60px;
-}
-
-button:hover{
-  background-color: black;
-}
-
-.imgbox{
-  margin-top: 200px;
-  position: relative;
-  height: 805px;
-  width: 453px;
-  top: -100px;
-  right: 50px;
-  animation: animateUser 4s linear infinite;
-}
 
 footer{
   width:100% ;
